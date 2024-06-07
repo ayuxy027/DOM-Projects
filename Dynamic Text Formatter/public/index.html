@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-slate-800 h-screen flex">
+    <div id="main" class="w-full">
+      <div
+        id="nav"
+        class="flex justify-around items-center py-4 bg-slate-900 rounded-lg shadow-lg w-full"
+      >
+        <button
+          id="italic"
+          class="text-blue-500 py-2 px-4 hover:bg-purple-800 font-semibold rounded-xl border border-purple-600 bg-slate-300 transition delay-150 ease-in-out shadow-xl"
+        >
+          Italic
+        </button>
+        <button
+          id="bold"
+          class="text-blue-500 py-2 px-4 hover:bg-purple-800 font-semibold rounded-xl border border-purple-600 bg-slate-300 transition delay-150 ease-in-out shadow-xl"
+        >
+          Bold
+        </button>
+        <button
+          id="large"
+          class="text-blue-500 py-2 px-4 hover:bg-purple-800 font-semibold rounded-xl border border-purple-600 bg-slate-300 transition delay-150 ease-in-out shadow-xl"
+        >
+          Large
+        </button>
+        <button
+          id="underline"
+          class="text-blue-500 py-2 px-4 hover:bg-purple-800 font-semibold rounded-xl border border-purple-600 bg-slate-300 transition delay-150 ease-in-out shadow-xl"
+        >
+          Underline
+        </button>
+        <button
+          id="strikethrough"
+          class="text-blue-500 py-2 px-4 hover:bg-purple-800 font-semibold rounded-xl border border-purple-600 bg-slate-300 transition delay-150 ease-in-out shadow-xl"
+        >
+          StrikeThrough
+        </button>
+      </div>
+      <div
+        id="transform"
+        class="absolute flex justify-around items-center py-4 rounded-lg w-full top-[900px] bg-red-800"
+      >
+        <h3 class="text-xl">Custom Text</h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
